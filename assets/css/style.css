@@ -1,0 +1,5954 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif;
+    resize: none !important;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 14px !important;
+}
+
+body,
+html {
+    width: 100%;
+    padding: 30px 0;
+}
+
+/* Global Style */
+/* Delivery Information */
+.mobil-top-area {
+    text-align: center;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #F4F4F4;
+    margin-bottom: 25px;
+}
+
+.mobil-top-area .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobil-top-area .container h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    color: #2B2B2B;
+    margin-bottom: 0;
+}
+
+.mobil-top-area button {
+    width: 57px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: 0;
+    border: 1px solid #D1D1D1;
+    border-radius: 700px;
+}
+
+
+.Conditions {
+    border: 0.1px solid #fff;
+}
+
+.che2 {
+    border: 0.1px solid #fff;
+}
+
+.che2.active {
+    border: 0.1px solid #2B2B2B !important;
+}
+
+.Conditions.active {
+    border: 0.1px solid #2B2B2B !important;
+}
+
+.OrderSummaryCol .accept a:hover {
+    background: #E10B17;
+    transition: 300ms all;
+}
+
+.DeliveryInformationCol .content .buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.allBtn {
+    transition: 300ms all;
+}
+
+.allBtn:hover {
+    background: #E10B17 !important;
+}
+
+.DeliveryInformationCol .content .buttons a {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 66px;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 33px;
+
+}
+
+.DeliveryInformationCol .content .buttons a:nth-child(1) {
+    border-radius: 6px 0 0 6px;
+}
+
+.DeliveryInformationCol .content .buttons a:nth-child(2) {
+    border-radius: 0 6px 6px 0;
+}
+
+.DeliveryInformationCol .content .buttons a {
+    border: 1px solid var(--unnamed-color-e0e0e0);
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #E0E0E0;
+    border-radius: 0px 6px 6px 0px;
+    color: #2B2B2B;
+    font-weight: 400;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+.DeliveryInformationCol .content .buttons a.active {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    background: transparent;
+    border: 1px solid #F5F5F5;
+    color: #E10B17;
+    font-weight: medium;
+}
+
+.DeliveryInformationCol .adresses .AdressTitleCol h3 {
+    margin-top: 30px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 22px/27px var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2b2b2b);
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content {
+    padding: 10px;
+    border: 2px solid #EFEFEF;
+    border-radius: 12px;
+    margin-top: 26px;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content.active {
+    border-color: #E10B17;
+}
+
+#Account .SignInContent .OtherInfos .inputs>div>div input,
+#Account .SignInContent .OtherInfos .inputs>div>div select {
+    width: 100%;
+    padding-left: 10px !important;
+}
+
+.info-bt {
+    margin-top: 38px;
+    padding-top: 38px;
+    border-top: 1px solid #EFEFEF;
+}
+
+.info-bt p {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 22px/27px var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2b2b2b);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    color: #2B2B2B;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.info-bt .info-col {
+    display: flex;
+    align-items: center;
+}
+
+.info-bt .info-col input {
+    margin-right: 8px;
+}
+
+.info-bt .info-col input:checked {
+    accent-color: #E10B17;
+}
+
+.info-bt .info-col span {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/16px var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2b2b2b);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .left {
+    display: flex;
+    align-items: center;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .left p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 7px;
+
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .left label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .left input {
+    display: none;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .left label .radio__radio {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #D6D6D6;
+    border-radius: 50%;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .left .radio__radio::before {
+    content: "";
+    margin: 3px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #E10B17;
+    display: none;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .left .radio__radio.red::before {
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #E10B17;
+    display: none;
+
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .left input:checked+.radio__radio::before {
+    display: flex;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .left input:checked+.radio__radio {
+    border-color: #E10B17;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .right a {
+    font-size: 16px;
+    color: #E10B17;
+    text-decoration: underline !important;
+    margin-right: 10px;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .top .right button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .bottom {
+    padding-top: 12px;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .bottom h3 {
+    font-size: 14px;
+    font-weight: medium;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #2B2B2B;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .bottom p {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: medium;
+    color: #767676;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .bottom .phone {
+    display: flex;
+    align-items: center;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6 .content .bottom .phone p {
+    margin: 0;
+    margin-left: 9px;
+    font-size: 14px;
+    font-weight: medium;
+    color: #2B2B2B;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6.addNewAdressCol .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 177px;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6.addNewAdressCol .content p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+.DeliveryInformationCol .adresses .col-lg-6.addNewAdressCol .content button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.OrderSummaryCol .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.OrderSummaryCol .OrderCard {
+    max-width: 363px;
+    padding: 29px;
+    background: white;
+    border-radius: 9px;
+}
+
+.OrderCard .top {
+    padding-bottom: 25px !important;
+    border-bottom: 1px solid #EDEDED !important;
+}
+
+.OrderCard .top2 {
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+}
+
+.OrderCard .top.active {
+    padding-bottom: 25px !important;
+    border-bottom: 1px solid #EDEDED !important;
+}
+
+.content2 {
+    display: none;
+}
+
+.rot {
+    transition: 400ms ease;
+}
+
+.rot.active {
+    transform: rotate(180deg);
+}
+
+.anim {
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+}
+
+.disop {
+    display: none !important;
+}
+
+.anim.active {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    transition: 400ms ease-in;
+}
+
+.OrderSummaryCol .OrderCard .top h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: medium;
+    color: #2B2B2B;
+}
+
+.OrderSummaryCol .OrderCard .infos .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.OrderSummaryCol .OrderCard .infos .info p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.OrderSummaryCol .OrderCard .infos .info p span {
+    margin-right: 25px;
+}
+
+.OrderSummaryCol .OrderCard .total {
+    padding-top: 19px;
+    border-top: 1px solid #EDEDED;
+
+}
+
+.OrderSummaryCol .OrderCard .total .totalinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.OrderSummaryCol .OrderCard .total .totalinfo p {
+    margin: 0;
+    font-size: 14px;
+    color: #E10B17;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-e10b17);
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-weight: bold !important;
+}
+
+.OrderSummaryCol .OrderCard .total .totalinfo p span {
+    margin-right: 25px;
+}
+
+.OrderSummaryCol .Conditions {
+    max-width: 363px;
+    background: white;
+    box-shadow: 0px 1px 6px #000000;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    padding: 20px 35px;
+    margin-top: 11px;
+}
+
+.OrderSummaryCol .Conditions input {
+    width: 30px;
+    height: 30px;
+    margin-right: 13px;
+    accent-color: #E10B17;
+}
+
+.OrderSummaryCol .Conditions p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: #AFAFAF;
+}
+
+.OrderSummaryCol .Conditions p a {
+    text-decoration: underline !important;
+    color: #2B2B2B;
+}
+
+.OrderSummaryCol .accept {
+    margin-top: 16px;
+}
+
+.OrderSummaryCol .accept a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 46px;
+    border-radius: 5px;
+    background: #2B2B2B;
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+/* Artboar */
+#Artboard .col-12 .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#Artboard .col-12 .content h3 {
+    margin: 17px 0 25px 0;
+    font-size: 49px;
+    font-weight: 500;
+    letter-spacing: 2.21px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 49px/60px var(--unnamed-font-family-helvetica-neue);
+    color: #3A3A3A;
+}
+
+#Artboard .col-12 .content>p {
+    margin: 0;
+    margin-bottom: 24px;
+    max-width: 344px;
+    font-size: 16px;
+    font-weight: normal;
+    font-weight: normal;
+    color: #3A3A3A;
+    text-align: center;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/22px var(--unnamed-font-family-helvetica-neue)
+}
+
+#Artboard .col-12 .content .copyOrderCode {
+    width: 323px;
+    height: 55px;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    position: relative;
+}
+
+#Artboard .col-12 .content .copyOrderCode p {
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 17px;
+    font-weight: 500;
+    color: #404040;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-17)/21px var(--unnamed-font-family-roboto);
+}
+
+#Artboard .col-12 .content .copyOrderCode p input {
+    margin-left: 5px;
+    width: 30%;
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    font-weight: 500;
+    color: #404040;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-17)/21px var(--unnamed-font-family-roboto);
+}
+
+#Artboard .col-12 .content .copyOrderCode button {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    right: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+#Artboard .col-12 .content .ContinueShopping {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 326px;
+    height: 46px;
+    border-radius: 5px;
+    background: #2B2B2B;
+    color: white;
+    margin-top: 22px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-17)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-roboto);
+}
+
+#Artboard .RemittanceInformation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Artboard .RemittanceInformation .top div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 20px 0;
+}
+
+#Account .BeforeOrdersContent .content .Card ul li .infoOrder {
+    margin-left: 16px;
+}
+
+#Artboard .RemittanceInformation .top div h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 14px;
+    color: #2B2B2B;
+}
+
+#Artboard .RemittanceInformation .top p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2B2B2B;
+    margin-bottom: 51px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-helvetica-neue);
+}
+
+#Artboard .RemittanceInformation .CreditCard {
+    width: 652px;
+    height: 218px;
+    border-radius: 13px;
+    border: 1px solid #E5E5E5;
+    padding: 30px 39px;
+}
+
+#Artboard .RemittanceInformation .CreditCard .infosDiv {
+    display: flex;
+    justify-content: space-between;
+    background: #F8F8F8;
+
+    align-items: center;
+    border-radius: 8px;
+    padding: 25px 31px;
+    margin-top: 21px;
+}
+
+#Artboard .RemittanceInformation .CreditCard .infosDiv p {
+    margin: 0;
+}
+
+.copy-text {
+    opacity: 0;
+    transition: 300ms all;
+    left: 56%;
+    top: 85%;
+    position: absolute;
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.copy-text2 {
+    opacity: 0;
+    transition: 300ms all;
+    left: 56%;
+    top: 100%;
+    position: absolute;
+    background: #000;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.copy-text2 p {
+    height: auto !important;
+}
+
+.copy-text3 {
+    opacity: 0;
+    position: absolute;
+    transition: 300ms all;
+    left: 56%;
+    top: 81%;
+    position: absolute;
+    background: #000;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.copy-text3.active {
+    opacity: 1;
+}
+
+.copy-text3 p {
+    color: #fff !important;
+    margin: 0 !important;
+}
+
+.copy-text2 p {
+    font-size: 15px !important;
+    color: #fff !important;
+}
+
+.copy-text3 .ox3 {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    top: -25%;
+    left: 20%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.copy-text2 .ox2 {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    top: -25%;
+    left: 20%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.copy-text2.active {
+    opacity: 1;
+}
+
+.copy-text.active {
+    opacity: 1;
+}
+
+.copy-text .ox {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    top: -25%;
+    left: 20%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.Popup {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+    margin-top: -10px;
+    transition: 300ms all;
+}
+
+.noneBlock {
+    visibility: hidden;
+    opacity: 0;
+    transition: 400ms all;
+    height: 0;
+    display: block !important;
+}
+
+.btn-center {
+    margin: 0 auto;
+}
+
+.noneBlock.active {
+    visibility: visible;
+    opacity: 1;
+    height: fit-content;
+}
+
+.Popup.active {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0;
+}
+
+.Popup .popup-container {
+    width: 615px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+
+}
+
+.Popup .popup-container {
+    padding-bottom: 52px;
+    position: relative;
+}
+
+.Popup .popup-container .pop-title {
+    padding-top: 45px;
+    text-align: center;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 24px/var(--unnamed-line-spacing-20) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2b2b2b);
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.Popup .popup-container form {
+    display: flex;
+    width: 492px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.ScroolNot.active {
+    overflow: hidden !important;
+}
+
+
+.Popup .popup-container form textarea {
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    opacity: 1;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-12) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2b2b2b);
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    height: 130px;
+    padding-left: 16px;
+    padding-top: 15px;
+}
+
+.Popup .popup-container form .pop-btn {
+    background: var(--unnamed-color-2b2b2b) 0% 0% no-repeat padding-box;
+    background: #2B2B2B 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    height: 48px;
+    border: none;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-12) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Popup .popup-container form input,
+select {
+    padding: 16px 0;
+    padding-left: 16px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.Popup .popup-container form input::placeholder {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-12) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2b2b2b);
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.Popup .popup-container form #phone {
+    width: 100%;
+    padding-left: 50px;
+}
+
+.Popup .popup-container form #phone::placeholder {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-12) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2b2b2b);
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+}
+
+.Popup .close-Btn {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    cursor: pointer;
+}
+
+.Popup .close-Btn:hover {
+    transform: scale(1.1);
+}
+
+.copy-text p {
+    margin: 0;
+    padding: 0;
+}
+
+#Artboard .RemittanceInformation .CreditCard .infosDiv div p input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 286px;
+}
+
+#Artboard .RemittanceInformation .CreditCard .infosDiv button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93px;
+    height: 32px;
+    background: #2B2B2B;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+/* ForgotPassword */
+#ForgotPassword .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#ForgotPassword .content h4 {
+    margin: 6px 0 20px 0;
+    color: #2B2B2B;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 22px/27px var(--unnamed-font-family-helvetica-neue);
+}
+
+#ForgotPassword .content>p {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7B7B7B;
+    max-width: 367px;
+    text-align: center;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-roboto);
+
+}
+
+#ForgotPassword .content .emailArea {
+    width: 533px;
+    border: 1px solid #E5E5E5;
+    border-radius: 17px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#ForgotPassword .content .emailArea p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2B2B2B;
+}
+
+#ForgotPassword .content .emailArea input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0 14px 0;
+}
+
+#ForgotPassword .content .emailArea button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    border-radius: 5px;
+    background: #E10B17;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* FollowOrder */
+#FollowOrder .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#FollowOrder .content h4 {
+    margin: 6px 0 20px 0;
+    color: #2B2B2B;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 22px/27px var(--unnamed-font-family-helvetica-neue);
+}
+
+#FollowOrder .content>p {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7B7B7B;
+    max-width: 367px;
+    text-align: center;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-roboto);
+}
+
+#FollowOrder .content .emailArea {
+    width: 533px;
+    border: 1px solid #E5E5E5;
+    border-radius: 17px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#FollowOrder .content .emailArea p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2B2B2B;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-roboto);
+
+
+}
+
+#FollowOrder .content .emailArea input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0 14px 0;
+}
+
+#FollowOrder .content .emailArea button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    border-radius: 5px;
+    background: #E10B17;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Paymnet Metod */
+.PaymentMetodCol .content .buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PaymentMetodCol .content .buttons a {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 66px;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 33px;
+
+}
+
+.PaymentMetodCol .content .buttons a:nth-child(1) {
+    border-radius: 6px 0 0 6px;
+}
+
+.PaymentMetodCol .content .buttons a:nth-child(2) {
+    border-radius: 0 6px 6px 0;
+}
+
+.PaymentMetodCol .content .buttons a {
+    border: 1px solid var(--unnamed-color-e0e0e0);
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    font-weight: 400;
+    color: #666666;
+    font-size: 18px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+
+}
+
+.PaymentMetodCol .content .buttons a.active {
+    background: transparent;
+    border: 1px solid #F5F5F5;
+    color: #E10B17;
+    font-weight: 500;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+.PaymentMetodCol .paymentMetod .PaymentTitleCol h3 {
+    font-size: 22px;
+    font-weight: medium;
+    margin-top: 30px;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content {
+    padding: 10px;
+    border: 2px solid #EFEFEF;
+    border-radius: 12px;
+    margin-top: 26px;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content.active {
+    border-color: #E10B17;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .top.active {
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 10px;
+
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .top label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.OrderAdres {
+    padding-right: 15px;
+}
+
+.OrderAdres .dis {
+    width: 363px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.OrderAdres .dis .OrderCard {
+    width: 100%;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .top label svg {
+    margin: 0 17px;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .top label p {
+    margin: 0;
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .top input {
+    display: none;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .top label .radio__radio {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #D6D6D6;
+    border-radius: 50%;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .top .radio__radio::before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-54%, -46%);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #E10B17;
+    display: none;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .top input:checked+.radio__radio::before {
+    display: inline-block;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .top input:checked+.radio__radio {
+    border-color: #E10B17;
+}
+
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .bottom {
+    padding-top: 12px;
+    visibility: hidden;
+    opacity: 0 !important;
+    transition: 400ms all;
+    height: 0;
+    margin-top: -20px;
+    padding-bottom: 10px;
+
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .bottom.active {
+    visibility: visible;
+    opacity: 1 !important;
+    height: auto;
+    margin-top: 0px;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .bottom p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2B2B2B;
+}
+
+.PaymentMetodCol .paymentMetod .col-lg-12 .content .bottom p:nth-child(1) {
+    margin-top: 10px;
+}
+
+.OrderSummaryCol .OrderCard {
+    max-width: 363px;
+    padding: 29px;
+    background: white;
+    box-shadow: 0px 1px 6px #00000029;
+    border-radius: 9px;
+}
+
+.OrderSummaryCol .OrderCard .top h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: medium;
+    color: #2B2B2B;
+}
+
+.OrderSummaryCol .OrderCard .infos .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.OrderSummaryCol .OrderCard .infos .info p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.OrderSummaryCol .OrderCard .infos .info p span {
+    margin-right: 25px;
+}
+
+.OrderSummaryCol .OrderCard .total {
+    padding-top: 19px;
+    border-top: 1px solid #EDEDED;
+
+}
+
+.OrderSummaryCol .OrderCard .total .totalinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.OrderSummaryCol .OrderCard .total .totalinfo p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: #E10B17;
+}
+
+.OrderSummaryCol .OrderCard .total .totalinfo p span {
+    margin-right: 25px;
+}
+
+.OrderSummaryCol .Conditions {
+    max-width: 363px;
+    background: white;
+    box-shadow: 0px 1px 6px #00000029;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    padding: 20px 35px;
+    margin-top: 11px;
+}
+
+.OrderSummaryCol .Conditions input {
+    width: 30px;
+    height: 30px;
+    margin-right: 13px;
+}
+
+.OrderSummaryCol .Conditions input:checked+.Conditions {
+    border: 2px solid red;
+}
+
+.OrderCard .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.OrderCard .top img {
+    object-fit: contain;
+}
+
+.OrderSummaryCol .Conditions p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: #AFAFAF;
+}
+
+.OrderSummaryCol .Conditions p a {
+    text-decoration: underline !important;
+    color: #2B2B2B;
+
+}
+
+.OrderSummaryCol .accept {
+    margin-top: 16px;
+}
+
+.OrderSummaryCol .accept a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 363px;
+    height: 46px;
+    border-radius: 5px;
+    background: #2B2B2B;
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+/* FaqBanner */
+#FaqBanner .content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#FaqBanner .content img {
+    width: 340px;
+    height: 304px;
+}
+
+#FaqBanner .content h2 {
+    color: #000000;
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 42px/51px var(--unnamed-font-family-helvetica-neue);
+}
+
+#FaqBanner .content h5 {
+    color: #000000;
+    line-height: 35px;
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 27px/40px var(--unnamed-font-family-helvetica-neue);
+}
+
+#Faqs .col-lg-6 {
+    margin-top: 79px;
+}
+
+#Faqs .title h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 14px;
+
+}
+
+#Faqs .faq {
+    border-bottom: 1px solid #E0E0E0;
+    width: 470px;
+}
+
+#Faqs .faq button {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: start;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+
+    margin-top: 19px;
+    margin-bottom: 28px;
+}
+
+#Faqs .faq.active button {
+    color: #E10B17;
+}
+
+#Faqs .faq button span {
+    margin-right: 15px;
+}
+
+#Faqs .faq .openTextArea {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.3s;
+
+}
+
+#Faqs .faq.active .openTextArea {
+    max-height: 200px;
+
+}
+
+/* Account */
+#Account .OptionsCol .content {
+    width: 268px;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+}
+
+#Account .OptionsCol .content::before {
+    content: " ";
+    top: 66.5px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #F4F4F4;
+}
+
+#Account .OptionsCol .content>a {
+    display: flex;
+    width: 100%;
+    color: #2B2B2B;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 17px;
+    border-radius: 5px 5px 0 0;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+#Account .OptionsCol .content a.active {
+    background: #FFF7F7;
+    color: #E10B17;
+}
+
+#Account .OptionsCol .content a.active svg path {
+    fill: #E10B17;
+}
+
+#Account .OptionsCol .content ul {
+    padding: 0;
+}
+
+#Account .OptionsCol .content li {
+    height: 100%;
+    width: 100%;
+}
+
+#Account .OptionsCol .content li:nth-child(1) {
+    margin-top: 10px;
+}
+
+#Account .OptionsCol .content li a {
+    display: flex;
+    width: 100%;
+    color: #2B2B2B;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px 24px;
+    border-radius: 5px;
+}
+
+#Account .OptionsCol .content li a svg {
+    margin-right: 18px;
+    transition: all 300ms;
+}
+
+#Account .OptionsCol .content li a:hover svg {
+    margin-right: 26px;
+}
+
+#Account .AccountContent .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 18px;
+}
+
+#Account .AccountContent .title h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2B2B2B;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/22px var(--unna);
+}
+
+#Account .AccountContent .content ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Account .AccountContent .content ul li {
+    width: 48%;
+    height: 152px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#Account .AccountContent .content ul li:nth-child(odd) {
+    margin-right: 20px;
+}
+
+#Account .AccountContent .content ul li a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 62px;
+    color: #484848;
+    font-size: 22px;
+    font-weight: 400;
+    transition: all 300ms;
+    border-radius: 10px;
+}
+
+#Account .AccountContent .content ul li a:hover {
+    background: #FFF7F7;
+    color: #E10B17;
+}
+
+#Account .AccountContent .content ul li a svg {
+    margin-right: 30px;
+    transition: all 300ms;
+}
+
+#Account .AccountContent .content ul li a svg path {
+    transition: all 300ms;
+}
+
+#Account .AccountContent .content ul li a:hover svg {
+    margin-right: 25px;
+}
+
+#Account .AccountContent .content ul li a:hover svg path {
+    fill: #E10B17;
+}
+
+#Account .AcooungSetiingsContent .title h2 {
+    color: #2B2B2B;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#Account .AcooungSetiingsContent .mainInfos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 24px;
+}
+
+#Account .AcooungSetiingsContent .mainInfos>input,
+#Account .AcooungSetiingsContent .mainInfos>div {
+    width: 49%;
+    height: 48px;
+    margin-top: 10px;
+}
+
+#Account .AcooungSetiingsContent .mainInfos div.telephone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AcooungSetiingsContent .mainInfos div.telephone input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+#Account .select {
+    position: relative;
+}
+
+#Account .select .selectBtn svg {
+    margin-left: 10px;
+}
+
+#Account .select .selectBtn {
+    display: flex;
+    align-items: center;
+    background: var(--bg1);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #fff;
+}
+
+#Account.select .selectBtn:after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 15px;
+    width: 6px;
+    height: 6px;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+    border-right: 2px solid #666;
+    border-bottom: 2px solid #666;
+    transition: 0.2s ease;
+}
+
+#Account .select .selectBtn.toggle {
+    border-radius: 3px 3px 0 0;
+}
+
+#Account .select .selectBtn.toggle:after {
+    -webkit-transform: translateY(-50%) rotate(-135deg);
+    transform: translateY(-50%) rotate(-135deg);
+}
+
+#Account .select .selectDropdown {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+    overflow: hidden;
+    background: var(--bg1);
+    border-top: 1px solid #eee;
+    z-index: 1;
+    background: #fff;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    visibility: hidden;
+    transition: 0.2s ease;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#Account .select .selectDropdown .option {
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#Account .select .selectDropdown .option:hover {
+    background: #f8f8f8;
+}
+
+#Account .select .selectDropdown.toggle {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+#Account .AcooungSetiingsContent .mainInfos div.telephone select option {
+    background-image: url(../image/Mask\ Group\ 44.png);
+}
+
+#Account .AcooungSetiingsContent .mainInfos input:nth-child(1),
+#Account .AcooungSetiingsContent .mainInfos input:nth-child(3),
+#Account .AcooungSetiingsContent .mainInfos input:nth-child(5) {
+    margin-right: 10px;
+}
+
+#Account .AcooungSetiingsContent .mainInfos input {
+    background: white;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AcooungSetiingsContent .mainInfos input::placeholder {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AcooungSetiingsContent .mainInfos .birthydayDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+#Account .AcooungSetiingsContent .mainInfos .birthydayDiv div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#Account .AcooungSetiingsContent .mainInfos .birthydayDiv p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+
+#Account .AcooungSetiingsContent .mainInfos .birthydayDiv select {
+    padding: 15px;
+    outline: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 48px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    margin: 0 5px;
+}
+
+#Account .AcooungSetiingsContent .OtherInfos .KurumsalDiv {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #FAFAFA;
+    padding: 16px;
+
+    margin: 32px 0;
+}
+
+/* The container */
+.CustomCheckbox {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #2B2B2B;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Hide the browser's default checkbox */
+#Account .AcooungSetiingsContent .OtherInfos .KurumsalDiv .CustomCheckbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+#Account .AcooungSetiingsContent .OtherInfos .KurumsalDiv .checkmark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-color: #eee;
+    border-radius: 5px;
+
+}
+
+/* On mouse-over, add a grey background color */
+#Account .AcooungSetiingsContent .OtherInfos .KurumsalDiv .CustomCheckbox:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+#Account .AcooungSetiingsContent .OtherInfos .KurumsalDiv .CustomCheckbox input:checked~.checkmark {
+    background-color: #E10B17;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+#Account .AcooungSetiingsContent .OtherInfos .KurumsalDiv .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+#Account .AcooungSetiingsContent .OtherInfos .KurumsalDiv .CustomCheckbox input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+#Account .AcooungSetiingsContent .OtherInfos .KurumsalDiv .CustomCheckbox .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#Account .AcooungSetiingsContent .OtherInfos .inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Account .AcooungSetiingsContent .OtherInfos .inputs>div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+#Account .AcooungSetiingsContent .OtherInfos .inputs>div input,
+#Account .AcooungSetiingsContent .OtherInfos .inputs>div select {
+    width: 49%;
+    background: white;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AcooungSetiingsContent .OtherInfos .inputs input,
+#Account .AcooungSetiingsContent .OtherInfos .inputs select,
+#Account .AcooungSetiingsContent .OtherInfos .inputs textarea {
+    margin: 5px 0;
+    width: 100%;
+    background: white;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+#Account .AcooungSetiingsContent .OtherInfos .inputs>div input::placeholder,
+#Account .AcooungSetiingsContent .OtherInfos .inputs>div select::placeholder {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AcooungSetiingsContent .OtherInfos .inputs input::placeholder,
+#Account .AcooungSetiingsContent .OtherInfos .inputs select::placeholder,
+#Account .AcooungSetiingsContent .OtherInfos .inputs textarea::placeholder {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#mobileQue .bottom-content h3 {
+    margin-top: 32px;
+    padding-left: 27px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 28px;
+    line-height: 29px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    color: #2B2B2B;
+}
+
+#mobileQue .bottom-content p {
+    padding-left: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/24px var(--unnamed-font-family-helvetica-neue);
+    color: #2B2B2B;
+
+}
+
+#Account .AcooungSetiingsContent .OtherInfos .inputs select,
+#Account .AcooungSetiingsContent .OtherInfos .inputs select {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AcooungSetiingsContent .OtherInfos button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 516px;
+    height: 48px;
+    background: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    transition: all 300ms;
+}
+
+#Account .AcooungSetiingsContent .OtherInfos button:hover {
+    background: #E10B17;
+}
+
+#Account .MyAdressInfosContent .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Account .MyAdressInfosContent .title h2 {
+    color: #2B2B2B;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#Account .MyAdressInfosContent .title a {
+    border: none;
+    outline: none;
+    width: 175px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #E10B17;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content {
+    padding: 10px;
+    border: 2px solid #EFEFEF;
+    border-radius: 12px;
+    margin-top: 26px;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content.active {
+    border-color: #E10B17;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content .top .left {
+    display: flex;
+    align-items: center;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content .top .left p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 7px;
+
+}
+
+
+
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content .top .right a {
+    font-size: 16px;
+    color: #E10B17;
+    text-decoration: underline !important;
+    margin-right: 10px;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content .top .right button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content .bottom {
+    padding-top: 12px;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content .bottom h3 {
+    font-size: 14px;
+    font-weight: medium;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #2B2B2B;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content .bottom p {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: medium;
+    color: #767676;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content .bottom .phone {
+    display: flex;
+    align-items: center;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6 .content .bottom .phone p {
+    margin: 0;
+    margin-left: 9px;
+    font-size: 14px;
+    font-weight: medium;
+    color: #2B2B2B;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6.addNewAdressCol .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 177px;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6.addNewAdressCol .content p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+#Account .MyAdressInfosContent .adresses .col-lg-6.addNewAdressCol .content button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+#Account .AddNewAdressContent .title h2 {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    color: #2B2B2B;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+#Account .AddNewAdressContent .OtherInfos .KurumsalDiv {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #FAFAFA;
+    padding: 16px;
+
+    margin: 32px 0;
+}
+
+
+#Account .AddNewAdressContent .OtherInfos .inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Account .AddNewAdressContent .OtherInfos .inputs>div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+
+#Account .AddNewAdressContent .OtherInfos .inputs>div input,
+#Account .AddNewAdressContent .OtherInfos .inputs>div select {
+    width: 49%;
+    background: white;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AddNewAdressContent .OtherInfos .inputs input,
+#Account .AddNewAdressContent .OtherInfos .inputs select,
+#Account .AddNewAdressContent .OtherInfos .inputs textarea {
+    margin: 5px 0;
+    width: 100%;
+    background: white;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+#Account .AddNewAdressContent .OtherInfos .inputs>div input::placeholder,
+#Account .AddNewAdressContent .OtherInfos .inputs>div select::placeholder {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AddNewAdressContent .OtherInfos .inputs input::placeholder,
+#Account .AddNewAdressContent .OtherInfos .inputs select::placeholder,
+#Account .AddNewAdressContent .OtherInfos .inputs textarea::placeholder {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AddNewAdressContent .OtherInfos .inputs select,
+#Account .AddNewAdressContent .OtherInfos .inputs select {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AddNewAdressContent .OtherInfos button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 516px;
+    height: 48px;
+    background: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    transition: all 300ms;
+}
+
+#Account .AddNewAdressContent .OtherInfos button:hover {
+    background: #E10B17;
+}
+
+#Account .AddNewAdressContent .OtherInfos div.telephone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    width: 49%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .AddNewAdressContent .OtherInfos div.telephone input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0;
+}
+
+#Account .select {
+    position: relative;
+}
+
+#Account .select .selectBtn svg {
+    margin-left: 10px;
+}
+
+#Account .select .selectBtn {
+    display: flex;
+    align-items: center;
+    background: var(--bg1);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #fff;
+}
+
+#Account.select .selectBtn:after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 15px;
+    width: 6px;
+    height: 6px;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+    border-right: 2px solid #666;
+    border-bottom: 2px solid #666;
+    transition: 0.2s ease;
+}
+
+#Account .select .selectBtn.toggle {
+    border-radius: 3px 3px 0 0;
+}
+
+#Account .select .selectBtn.toggle:after {
+    -webkit-transform: translateY(-50%) rotate(-135deg);
+    transform: translateY(-50%) rotate(-135deg);
+}
+
+#Account .select .selectDropdown {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+    overflow: hidden;
+    background: var(--bg1);
+    border-top: 1px solid #eee;
+    z-index: 1;
+    background: #fff;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    visibility: hidden;
+    transition: 0.2s ease;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#Account .select .selectDropdown .option {
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#Account .select .selectDropdown .option:hover {
+    background: #f8f8f8;
+}
+
+#Account .select .selectDropdown.toggle {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+#Account .AddNewAdressContent .OtherInfos div.telephone select option {
+    background-image: url(../image/Mask\ Group\ 44.png);
+}
+
+
+
+
+
+#Account .BeforeOrdersContent .title h2 {
+    color: #2B2B2B;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+#Account .BeforeOrdersContent .content .Card {
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    padding: 17px;
+    margin: 13px;
+}
+
+#Account .BeforeOrdersContent .content .Card ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+#Account .BeforeOrdersContent .content .Card ul li h5 {
+    font-size: 14px;
+    font-weight: 5 00;
+    color: #848484;
+    margin-bottom: 7.5px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-helvetica-neue);
+}
+
+#Account .BeforeOrdersContent .content .Card ul li p {
+    margin: 0;
+    color: #2B2B2B;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .BeforeOrdersContent .content .Card ul li p.price {
+    color: #E10B17;
+}
+
+#Account .BeforeOrdersContent .content .Card ul li button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 52px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-helvetica-neue);
+}
+
+#Account .BeforeOrdersContent .content .Card ul li button svg {
+    margin-right: 7.5px;
+}
+
+#Account .BeforeOrdersContent .content .Card ul li button.deleteOrder {
+    background: #FFF3EE;
+    color: #E10B17;
+}
+
+
+#Account .FavoritesContent .title h2 {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    color: #2B2B2B;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.indirim {
+    margin-top: 8px;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 47px;
+    border: 1px solid rgba(0, 0, 0, 0.062);
+
+}
+
+.indirim p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E10B17;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+
+}
+
+.indirim span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    font-style: normal;
+    color: #2B2B2B;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+
+}
+
+#Account .FavoritesContent .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Account .FavoritesContent .Card {
+    width: 32%;
+    margin-top: 20px;
+}
+
+#Account .FavoritesContent .Card .ImageDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #F8F8F8;
+    border-radius: 9px;
+    height: 413px;
+    position: relative;
+
+}
+
+#Account .FavoritesContent .Card .LikeIconBTN {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+#Account .FavoritesContent .Card .color {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#Account .FavoritesContent .Card .color p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #202020;
+    margin: 0;
+}
+
+#Account .FavoritesContent .Card .Infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 34px 24px;
+}
+
+#Account .FavoritesContent .Card .Infos h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #202020;
+    text-align: center;
+    margin-bottom: 14px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+
+    font-style: normal;
+    font-weight: 500;
+}
+
+#Account .FavoritesContent .Card .Infos>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Account .FavoritesContent .Card .Infos>div .discountPercent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3px 10px;
+    border: 1px solid #202020;
+    border-radius: 4px;
+    margin-right: 17px;
+}
+
+#Account .FavoritesContent .Card .Infos>div .discountPercent p {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 500;
+    color: #202020;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+
+
+}
+
+#Account .FavoritesContent .Card .Infos>div .discountPercent span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #202020;
+}
+
+#Account .FavoritesContent .Card .Infos>div .discountPrice p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+    position: relative;
+    display: flex;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+
+}
+
+#Account .FavoritesContent .Card .Infos>div .discountPrice p::after {
+    content: " ";
+    position: absolute;
+    top: 57%;
+    left: 1px;
+    transform: translateY(-50%);
+    height: 1px;
+    width: 54px;
+    background: #999999;
+    z-index: 1000;
+}
+
+#Account .FavoritesContent .Card .Infos>div .discountPrice span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #202020;
+    text-align: center;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/24px var(--unnamed-font-family-helvetica-neue);
+}
+
+
+/* Blog Info */
+
+#BlogInfo .title h4 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+    color: #484848;
+    margin-bottom: 23px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 30px/37px var(--unnamed-font-family-helvetica-neue);
+}
+
+#BlogInfo .title h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 35px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 40px/49px var(--unnamed-font-family-helvetica-neue);
+}
+
+#BlogInfo img {
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+#BlogInfo p {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/24px var(--unnamed-font-family-helvetica-neue);
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2B2B2B;
+}
+
+#BlogInfo .ReadCommentDiv {
+    width: 100%;
+}
+
+#BlogInfo .ReadCommentDiv h3 {
+    margin-top: 36px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 15px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-26)/var(--unnamed-line-spacing-32) var(--unnamed-font-family-helvetica-neue);
+}
+
+#BlogInfo .ReadCommentDiv div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+#BlogInfo .ReadCommentDiv textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 18px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+#BlogInfo .ReadCommentDiv textarea::placeholder {
+    color: #BCBCBC;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-helvetica-neue);
+}
+
+
+#BlogInfo .ReadCommentDiv button {
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    width: 138px;
+    height: 42px;
+    background: #E10B17;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+
+}
+
+#BlogInfo .comments {
+    margin-top: 17px;
+}
+
+#BlogInfo .comments .comment {
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 18px;
+    margin: 5.5px 0;
+}
+
+#BlogInfo .comments .comment p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-helvetica-neue);
+}
+
+#BlogInfo .comments .comment span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #BCBCBC;
+    margin-top: 6px;
+}
+
+/* Questions */
+#Questions .TitleCol h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #484848;
+    text-align: center;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 30px/37px var(--unnamed-font-family-helvetica-neue);
+}
+
+#Questions .MainContentCol {
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 55px;
+    margin-top: 28px;
+}
+
+#Questions .MainContentDiv .leftCol ul {
+    padding: 0;
+    margin: 0;
+}
+
+#Questions .MainContentDiv .leftCol ul li:nth-child(1) {
+    margin-top: 0;
+}
+
+#Questions .MainContentDiv .leftCol ul li {
+    margin: 12px 0;
+    white-space: nowrap;
+}
+
+#Questions .MainContentDiv .leftCol ul li button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #585858;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Questions .MainContentDiv .leftCol ul li button.active {
+    color: #E10B17;
+}
+
+#Questions .MainContentDiv .leftCol ul li button span {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    margin-right: 16px;
+}
+
+#Questions .MainContentDiv .leftCol ul li button.active span {
+    border: none;
+    background: #E10B17;
+}
+
+#Questions .MainContentDiv .leftCol ul li button span svg {
+    margin: auto;
+}
+
+#Questions .MainContentDiv .leftCol ul li button.active span svg path {
+    fill: white;
+}
+
+#Questions .MainContentDiv .tab-content {
+    display: none;
+}
+
+#Questions .MainContentDiv .tab-content.active {
+    display: block;
+}
+
+#Questions .MainContentDiv .tab-content h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 28px;
+    color: #484848;
+    margin-bottom: 22px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 28px/34px var(--unnamed-font-family-helvetica-neue);
+}
+
+#Questions .MainContentDiv .tab-content p {
+    margin: 22px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2B2B2B;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/24px var(--unnamed-font-family-helvetica-neue);
+}
+
+/* Contact */
+
+#Contact .ta2 {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1065px;
+    background: url(../image/08_Architect-Offices-Rivierstaete-Kantoren-Amsterdam-MVSA-©Barwerd_van_der_Plas_W.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 820px;
+}
+
+.ta {
+    display: none;
+}
+
+#Contact .ContactCol {
+    width: 35% !important;
+}
+
+#Contact .ContactCol h2 {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 33px/40px var(--unnamed-font-family-helvetica-neue);
+    margin: 0;
+    padding: 0;
+    font-size: 33px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 33px;
+}
+
+#Contact .ContactCol ul {
+    margin: 0;
+    padding: 0;
+}
+
+#Contact .ContactCol ul li {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 27px;
+}
+
+#Contact .ContactCol div.telephone {
+    margin: 5px 0;
+}
+
+#Contact .ContactCol ul li p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #E10B17;
+    display: flex;
+    align-items: center;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-12) var(--unnamed-font-family-helvetica-neue);
+}
+
+#Contact .ContactCol ul li p svg {
+    margin-right: 13px;
+}
+
+#Contact .ContactCol ul li span {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2B2B2B;
+    text-align: start;
+    width: 55%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-12) var(--unnamed-font-family-helvetica-neue);
+}
+
+#Contact .ContactCol .contentInputs {
+    border-top: 1px solid #EEEEEE;
+    padding-top: 34px;
+    margin-top: 34px;
+}
+
+#Contact .ContactCol .contentInputs h2 {
+    margin-bottom: 20px;
+}
+
+#Contact .ContactCol input,
+#Contact .ContactCol textarea {
+    margin: 5px 0;
+    width: 100%;
+    background: white;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Contact .ContactCol input::placeholder,
+#Contact .ContactCol textarea::placeholder {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Contact .ContactCol button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    background: #2B2B2B;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#Contact .ContactCol div.telephone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Contact .ContactCol div.telephone input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+#Contact .ContactCol .select {
+    position: relative;
+}
+
+#Contact .ContactCol .select .selectBtn svg {
+    margin-left: 10px;
+    visibility: hidden;
+
+}
+
+#Contact .ContactCol .select .selectBtn {
+    display: flex;
+    align-items: center;
+    background: var(--bg1);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #fff;
+}
+
+#Contact .ContactCol .select .selectBtn:after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 15px;
+    width: 6px;
+    height: 6px;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+    border-right: 2px solid #666;
+    border-bottom: 2px solid #666;
+    transition: 0.2s ease;
+}
+
+#Contact .ContactCol .select .selectBtn.toggle {
+    border-radius: 3px 3px 0 0;
+}
+
+#Contact .ContactCol .select .selectBtn.toggle:after {
+    -webkit-transform: translateY(-50%) rotate(-135deg);
+    transform: translateY(-50%) rotate(-135deg);
+}
+
+#Contact .ContactCol .select .selectDropdown {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+    overflow: hidden;
+    background: var(--bg1);
+    border-top: 1px solid #eee;
+    z-index: 1;
+    background: #fff;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    visibility: hidden;
+    transition: 0.2s ease;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#Contact .ContactCol .select .selectDropdown .option {
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#Contact .ContactCol .select .selectDropdown .option:hover {
+    background: #f8f8f8;
+}
+
+#Contact .ContactCol .select .selectDropdown.toggle {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+#Contact .ContactCol div.telephone select option {
+    background-image: url(../image/Mask\ Group\ 44.png);
+}
+
+#Contact .MapCol {
+    margin-top: 60px;
+}
+
+.Map iframe {
+    margin-top: 31px;
+    width: 100%;
+    height: 436px;
+}
+
+.actives {
+    background: #FFF7F7;
+    color: #E10B17
+}
+
+.actives span {
+    color: #E10B17;
+    font-weight: 500;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-helvetica-neue);
+}
+
+
+/* Reconiliation */
+#Reconiliation .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../image/toptan-satilacak-urunu-belirlemek.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 590px;
+    position: relative;
+    width: 100%;
+}
+
+#Reconiliation .MainCon {
+    margin-top: 40px;
+}
+
+#Reconiliation .banner img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+#Reconiliation .banner h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 62px;
+    font-weight: 400;
+    color: #FFFFFF;
+    z-index: 100;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 62px/75px var(--unnamed-font-family-helvetica-neue);
+}
+
+#Reconiliation .banner h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 29px;
+    font-size: 29px;
+    font-weight: 300;
+    color: #FFFFFF;
+    z-index: 100;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 29px/35px var(--unnamed-font-family-helvetica-neue);
+}
+
+#Reconiliation .Advantages h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    color: #2B2B2B;
+    margin-bottom: 32px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 32px/39px var(--unnamed-font-family-helvetica-neue);
+}
+
+#Reconiliation .Advantages .advantage {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    margin: 11.5px 0;
+}
+
+#Reconiliation .Advantages .advantage p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+}
+
+#Reconiliation .contactForm .content {
+    background: #FAFAFA;
+    padding: 30px 50px;
+    border-radius: 24px;
+}
+
+#FollowOrder .content .emailArea button {
+    transition: 300ms all;
+}
+
+#FollowOrder .content .emailArea button:hover {
+    background: transparent;
+    border: 1px solid #E10B17;
+    color: #E10B17;
+}
+
+#ForgotPassword .content .emailArea button {
+    transition: 300ms all;
+}
+
+#ForgotPassword .content .emailArea button:hover {
+    background: transparent;
+    border: 1px solid #E10B17;
+    color: #E10B17;
+}
+
+#Reconiliation .contactForm h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    color: #2B2B2B;
+    margin-bottom: 32px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 32px/var(--unnamed-line-spacing-20) var(--unnamed-font-family-helvetica-neue);
+}
+
+#Reconiliation .contactForm button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    background: #2B2B2B;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#Reconiliation .contactForm input {
+    margin: 5px 0;
+    width: 100%;
+    background: white;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Reconiliation .contactForm div.telephone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Reconiliation .contactForm div.telephone input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+#Reconiliation .contactForm .select {
+    position: relative;
+}
+
+#Reconiliation .contactForm .select .selectBtn svg {
+    margin-left: 10px;
+    visibility: hidden;
+
+}
+
+#Reconiliation .contactForm .select .selectBtn {
+    display: flex;
+    align-items: center;
+    background: var(--bg1);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #fff;
+}
+
+#Reconiliation .contactForm .select .selectBtn:after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 15px;
+    width: 6px;
+    height: 6px;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+    border-right: 2px solid #666;
+    border-bottom: 2px solid #666;
+    transition: 0.2s ease;
+}
+
+#Reconiliation .contactForm .select .selectBtn.toggle {
+    border-radius: 3px 3px 0 0;
+}
+
+#Reconiliation .contactForm .select .selectBtn.toggle:after {
+    -webkit-transform: translateY(-50%) rotate(-135deg);
+    transform: translateY(-50%) rotate(-135deg);
+}
+
+#Reconiliation .contactForm .select .selectDropdown {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+    overflow: hidden;
+    background: var(--bg1);
+    border-top: 1px solid #eee;
+    z-index: 1;
+    background: #fff;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    visibility: hidden;
+    transition: 0.2s ease;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#Reconiliation .contactForm .select .selectDropdown .option {
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#Reconiliation .contactForm .select .selectDropdown .option:hover {
+    background: #f8f8f8;
+}
+
+#Reconiliation .contactForm .select .selectDropdown.toggle {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+#Reconiliation .contactForm div.telephone select option {
+    background-image: url(../image/Mask\ Group\ 44.png);
+}
+
+#ContactSection.ReconiliationSec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FAFAFA;
+    padding: 100px 20px;
+    margin-top: 50px;
+}
+
+#ContactSection.ReconiliationSec .content h2 {
+    text-align: center;
+    font-size: 41px;
+    font-weight: bold;
+    color: #2B2B2B;
+    margin-bottom: 52px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 41px/50px var(--unnamed-font-family-helvetica-neue);
+}
+
+#ContactSection.ReconiliationSec .content .Cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ContactSection.ReconiliationSec .content .Cards .Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    margin: 0 16px;
+    width: 390px;
+    height: 390px;
+    border-radius: 22px;
+
+
+}
+
+#ContactSection.ReconiliationSec .content .Cards .Card h5 {
+    font-size: 38px;
+    font-weight: 500;
+    color: #E10B17;
+    margin: 13px 0 19px 0;
+}
+
+#ContactSection.ReconiliationSec .content .Cards .Card p {
+    font-size: 30px;
+    font-weight: 400;
+    color: #2B2B2B;
+}
+
+/* OrderCancel */
+#OrderCancel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#OrderCancel .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#OrderCancel .content h2 {
+    margin: 0;
+    color: #2B2B2B;
+    font-size: 24px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 24px/var(--unnamed-line-spacing-20) var(--unnamed-font-family-helvetica-neue);
+    font-weight: bold;
+}
+
+#OrderCancel .content img {
+    margin: 40px 0 60px 0;
+}
+
+#OrderCancel .content>p {
+    margin: 0;
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-helvetica-neue);
+}
+
+#OrderCancel .content textarea {
+    margin: 18px 0;
+    width: 474px;
+    background: white;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#OrderCancel .content button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 474px;
+    height: 48px;
+    border-radius: 5px;
+    background: #2B2B2B;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#OrderCancel .content .CodeDiv {
+    width: 474px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    border: 1px solid #EBEBEB;
+    margin-top: 13px;
+}
+
+#OrderCancel .content .CodeDiv p {
+    margin: 0;
+    color: #2B2B2B;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/var(--unnamed-line-spacing-20) var(--unnamed-font-family-helvetica-neue);
+}
+
+#OrderCancel .content .CodeDiv span {
+    margin: 0;
+    color: #E10B17;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.NoScrool.active {
+    overflow: hidden !important;
+}
+
+/* Sign In */
+#Account .SignInContent .MainTitle h2 {
+    color: #2B2B2B;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 27px/33px var(--unnamed-font-family-helvetica-neue);
+
+}
+
+#Account .SignInContent .MainTitle {
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 16px;
+}
+
+#Account .SignInContent h2 {
+    color: #2B2B2B;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+
+#Account .SignInContent .OtherInfos .inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Account .SignInContent .OtherInfos .inputs>div {
+    width: 100%;
+    margin-top: 37px;
+
+}
+
+#Account .SignInContent .OtherInfos .inputs>div>div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+
+#Account .SignInContent .OtherInfos .inputs>div>div input,
+#Account .SignInContent .OtherInfos .inputs>div>div select {
+    width: 49%;
+    background: white;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cus {
+    width: 70px !important;
+    height: 48px !important;
+    padding: 0 !important;
+}
+
+#Account .SignInContent .OtherInfos .inputs input,
+#Account .SignInContent .OtherInfos .inputs select,
+#Account .SignInContent .OtherInfos .inputs textarea {
+    margin: 5px 0;
+    width: 100%;
+    background: white;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 16px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+#Account .SignInContent .OtherInfos .inputs>div>div input::placeholder,
+#Account .SignInContent .OtherInfos .inputs>div>div select::placeholder {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .SignInContent .OtherInfos .inputs input::placeholder,
+#Account .SignInContent .OtherInfos .inputs select::placeholder,
+#Account .SignInContent .OtherInfos .inputs textarea::placeholder {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .SignInContent .OtherInfos .inputs select,
+#Account .SignInContent .OtherInfos .inputs select {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .SignInContent .OtherInfos button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 516px;
+    height: 48px;
+    background: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    transition: all 300ms;
+}
+
+#Account .SignInContent .OtherInfos button:hover {
+    background: #E10B17;
+}
+
+#Account .SignInContent .OtherInfos div.telephone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    width: 49%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#Account .SignInContent .OtherInfos button {
+    margin: 35px auto;
+}
+
+#Account .SignInContent .OtherInfos .telephone input {
+    width: 100% !important;
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+    margin: 0 !important;
+}
+
+#Account .SignInContent .birthydayDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    width: 49%;
+}
+
+#Account .SignInContent .birthydayDiv div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#Account .SignInContent .birthydayDiv p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    text-align: center;
+}
+
+#Account .SignInContent .birthydayDiv select {
+    padding: 15px;
+    outline: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 48px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    margin: 0px 5px !important;
+}
+
+/*  Blogs  */
+#Blogs .main .BlogCard:not(:nth-child(1)) {
+    margin-top: 20px;
+}
+
+#Blogs .main .BlogCard .imgDiv {
+    height: 285px;
+    width: 100%;
+}
+
+#Blogs .main .BlogCard .imgDiv img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+#Blogs .main .BlogCard .textDiv {
+    padding: 35px;
+    border: 1px solid #EFEFF1;
+    border-radius: 10px;
+    transform: translateY(-5px);
+    background: white;
+}
+
+#Blogs .main .BlogCard .textDiv h3 {
+    margin: 0;
+    font-size: 32px;
+    color: #212529;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+#Blogs .main .BlogCard .textDiv p {
+    margin: 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #212529;
+}
+
+#Blogs .main .BlogCard .textDiv button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    width: 163px;
+    height: 46px;
+    border-radius: 5px;
+    background: #E10B17;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    transition: 300ms all;
+}
+
+.blogs-title {
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+
+.swiper-content {
+    width: 308px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-e0e0e0);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.swiper-content img {
+    width: 100%;
+}
+
+.swiper-content {
+    padding-bottom: 26px;
+}
+
+.card-content {
+    padding-left: 30px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.card-content .time {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-9fa6ba);
+    text-align: left;
+    font: normal normal medium 16px/19px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #9FA6BA;
+    opacity: 1;
+    font-family: 500;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.card-content p {
+    padding: 0;
+    margin: 0;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-212529);
+    text-align: left;
+    font: normal normal medium 18px/23px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #212529;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.swiper-content a {
+    font-weight: bold;
+    margin-top: 41px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-product-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1f1f1f);
+    text-align: left;
+
+    letter-spacing: 0px;
+    color: #1F1F1F;
+    width: 279px;
+    height: 55px;
+    border: 2px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms all;
+    margin: 0 auto;
+
+}
+
+.swiper-content a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.swiper-button-prev:after {
+    content: "f104";
+    color: #000;
+    font-size: 12px !important;
+    font-weight: bold;
+    background: var(--unnamed-color-ffffff);
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    padding: 11px 12px;
+    justify-content: center;
+}
+
+.swiper-button-next:after {
+    padding: 11px 12px;
+    content: "f105";
+    background: var(--unnamed-color-ffffff);
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    color: #000;
+    font-size: 12px !important;
+
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-container {
+    overflow: visible;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    position: absolute;
+    top: 60px !important;
+    left: 94.8% !important;
+    border-radius: 8px;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    position: absolute;
+    top: 61px !important;
+    border-radius: 8px;
+    right: 2px !important;
+
+}
+
+
+#Blogs .main .BlogCard .textDiv button:hover {
+    border: 1px solid #E10B17;
+    color: #E10B17;
+    background: transparent;
+}
+
+
+
+
+#Blogs .aside>div:nth-child(1) {
+    border: 1px solid #EFEFF1;
+    border-radius: 10px;
+    padding: 25px 15px;
+}
+
+#Blogs .aside .socialMedias .socialCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    margin: 13px 0;
+}
+
+#Blogs .aside .socialMedias .socialCard .iconDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 53.21px;
+    height: 53.21px;
+    border-radius: 6px;
+    border: 1px solid #EFEFF1;
+    margin-right: 13px;
+}
+
+#Blogs .aside .socialMedias .socialCard div p:nth-child(1) {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #484848;
+}
+
+#Blogs .aside .socialMedias .socialCard div p:nth-child(2) {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 1px;
+}
+
+#Blogs .aside .NewProducts .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 21px 0;
+}
+
+#Blogs .aside .NewProducts .buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    width: 129px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Products2 {
+    display: none;
+}
+
+.Products2.active {
+    display: block;
+}
+
+.Products.active {
+    display: none;
+}
+
+#Blogs .aside .NewProducts .buttons button {
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    margin-right: 20px;
+}
+
+#Blogs .aside .NewProducts .buttons button.active {
+    background-color: #000;
+    color: white;
+}
+
+#Blogs .aside .NewProducts .Card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 11.5px 0;
+}
+
+#Blogs .aside .NewProducts .Card img {
+    width: 91px;
+    height: 91px;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+
+#Blogs .aside .NewProducts .Card p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+}
+
+#Blogs .aside .categories {
+    margin-top: 43px;
+}
+
+#Blogs .aside .categories h3 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 400;
+    color: #2B2B2B;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+#Blogs .aside .categories div {
+    border: 1px solid #EFEFF1;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Blogs .aside .categories div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 49px;
+    border: 1px solid #EBEBEB;
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+    margin: 6.5px 0;
+    transition: 300ms all;
+}
+
+#Blogs .aside .categories div a:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+.f-tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Products2 {
+    display: none;
+}
+
+.sn2 {
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid #EFEFF1;
+    display: none;
+    font-weight: 500;
+    color: #000000;
+
+
+}
+
+.s-n {
+    display: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.actives svg path {
+    fill: #E10B17;
+}
+
+#mobileQue,
+#mobil-menu {
+    display: none;
+}
+
+#Account .SignInContent .OtherInfos div.telephone {
+    margin-top: 4px;
+}
+
+#Reconiliation .contactForm div.telephone {
+    margin-top: 5px;
+}
+
+.ta3 {
+    display: none;
+}
+
+.fixed-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    display: none;
+    padding: 15px 0;
+    padding-left: 23px;
+    padding-right: 13px;
+}
+
+.fixed-bar .f-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.fixed-bar .f-left .fiyat {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    margin-bottom: 4px;
+    color: #9F9F9F;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+.fixed-bar .f-left .total-f {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #202020;
+}
+
+.fixed-bar button {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    border: none;
+    background: #E50A19;
+    width: 195px;
+    height: 48px;
+}
+
+.no-btn {
+    margin: 0 auto;
+}
+
+.no-btn.active {
+    display: none !important;
+}
+
+#Account .AcooungSetiingsContent .mainInfos .birthydayDiv div {
+    margin-right: -5px;
+}
+
+.mobil-top-area {
+    display: none;
+}
+
+.adresbeklemebtn {
+    margin-left: 200px;
+}
+
+.adrestime p {
+    margin: 0;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal medium 18px/23px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    font-weight: 500;
+}
+
+.contentadres .Card {
+    margin-left: 0 !important;
+}
+
+.adrestime svg {
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EFEFEF;
+    border-radius: 6px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.num-p {
+    margin: 0;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal medium 18px/23px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    font-weight: 500;
+    margin-top: 36px;
+}
+
+.num-p span {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal medium 18px/23px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #838383;
+}
+
+.adrestime p span {
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal medium 18px/23px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #838383;
+}
+
+.adrestime button {
+    background: transparent;
+    border: none;
+    margin: 0 20px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-2b2b2b);
+    text-align: left;
+    font: normal normal medium 18px/23px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.ordersdiv .order {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding-top: 29px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #F4F4F4;
+    position: relative;
+}
+
+.ordersdiv .order:first-child {
+    border-top: 1px solid #F4F4F4;
+
+}
+
+
+.ordersdiv .order .imageDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ordersdiv .order .imageDiv div {
+    height: 200px;
+    width: 130px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FAFAFA;
+}
+
+.ordersdiv .order .imageDiv div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ordersdiv .order .infoOrder {
+    margin-left: 30px;
+}
+
+.ordersdiv .order .infoOrder h3 {
+    color: #202020;
+    font-size: 16px;
+    font-weight: medium;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    margin-bottom: 8px;
+}
+
+.ordersdiv .order .infoOrder .littleInfo {
+    color: #5D5D5D;
+    font-size: 16px;
+    font-weight: medium;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    margin-bottom: 10px;
+}
+
+.ordersdiv .order .infoOrder .deletePrice {
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: medium;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.ordersdiv .order .infoOrder .deletePrice::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background: #9B9B9B;
+}
+
+.ordersdiv .order .infoOrder .price {
+    display: block;
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    margin-bottom: 1px;
+}
+
+.ordersdiv .order .infoOrder .discount {
+    border: 1px solid #E50A19;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.ordersdiv .order .infoOrder .discount p {
+    margin: 0;
+    color: #2B2B2B;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+
+}
+
+.ordersdiv .order .infoOrder .discount p span {
+    color: #E10B17;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+.ordersdiv .order .infoOrder .features {
+    display: flex;
+    align-items: center;
+}
+
+.ordersdiv .order .infoOrder .features ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ordersdiv .order .infoOrder .features ul:nth-child(2) {
+    margin-left: 40px;
+}
+
+.ordersdiv .order .infoOrder .features ul li {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+}
+
+.ordersdiv .order .infoOrder .features ul li p {
+    margin: 0;
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+.cardAdres {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.alt-card {
+    padding-top: 19px;
+}
+
+.cardAdres li {
+    margin-right: 140px;
+}
+
+.alt-style {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+
+    color: #848484 !important;
+}
+
+
+.ordersdiv .order .infoOrder .features ul li span {
+    margin: 0;
+    color: #1D1D1D;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+.OrderRulesCol .rulesDiv h2 {
+    margin-bottom: 34px;
+    color: #2B2B2B;
+    margin-top: 36px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+.OrderRulesCol .rulesDiv h2 span {
+    color: #838383;
+}
+
+.OrderRulesCol .rulesDiv h5 {
+    margin-bottom: 11px;
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+.OrderRulesCol .rulesDiv div {
+    height: 200px;
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: 7px;
+    padding: 28px 40px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.OrderRulesCol .rulesDiv div p {
+    color: #9F9F9F;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+.deleteOrderButton {
+    position: absolute;
+    top: 17px;
+    right: 10px;
+    background: transparent;
+    border: none;
+}
+
+.countDiv {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.countDiv input {
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 31px;
+    border-radius: 10px;
+    margin: 0 11px;
+    border: 1px solid #EEEEEE;
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+}
+
+.countDiv button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.waitAdress#Account .BeforeOrdersContent .content .Card {
+    position: relative;
+}
+
+.waitAdress#Account .BeforeOrdersContent .content .Card:not(:nth-child(1)):before {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+    height: 1px;
+    background: #E5E5E5;
+}
+
+.waitAdress#Account .BeforeOrdersContent .content .Card ul li h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2B2B2B;
+
+}
+
+.waitAdress#Account .BeforeOrdersContent .content .Card ul li p {
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#Account .BeforeOrdersContent .content .Card ul li p.price {
+    color: #E10B17;
+}
+
+#Account .BeforeOrdersContent .content .Card.cardAdrekleme ul li p.price {
+    color: #E10B17;
+    font-weight: bold;
+}
+
+.infoOrder {
+    position: relative;
+}
+
+.ordersdiv .order .infoOrder .price {
+    position: relative;
+}
+
+.countDiv input {
+    text-align: center;
+}
+
+
+.mobilList {
+    display: none;
+    margin-top: 18px;
+    border-radius: 10px;
+    place-content: center;
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-right: 13px;
+    padding-bottom: 05px;
+    border: 1px solid #EFEFEF;
+}
+
+.mobilList li {
+    padding-bottom: 13px;
+    margin-top: 13px;
+    border-bottom: 1px solid #EBEBEB;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+    color: #2B2B2B;
+}
+
+.mobilList li:last-child {
+    border-bottom: none;
+}
+
+.mobilList li:nth-child(9) {
+    border-bottom: none;
+}
+
+.bodY.active {
+    overflow: hidden !important;
+}
+
+.l-m {
+    margin-bottom: 26px;
+}
+
+.mobilList li.re {
+    color: #E10B17;
+
+}
+
+#Account .SignInContent .birthydayDiv div {
+    margin-right: -6px;
+}
+
+/* Medias */
+@media(max-width:1400px) {
+    .cardAdres li {
+        margin-right: 100px;
+    }
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 93.8% !important;
+    }
+
+    .ordersdiv .order .infoOrder h3 {
+        margin-bottom: 4px;
+    }
+
+    .ordersdiv .order .infoOrder .littleInfo {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .ordersdiv .order .infoOrder .deletePrice {
+        font-size: 12px;
+    }
+
+    .ordersdiv .order .infoOrder .price {
+        font-size: 14px;
+    }
+
+    .ordersdiv .order .infoOrder .discount p {
+        font-size: 12px;
+    }
+
+    .ordersdiv .order .infoOrder .discount p span {
+        font-size: 13px;
+    }
+
+    .ordersdiv .order .infoOrder .discount {
+        margin-top: 4px;
+        padding: 4px 5px;
+    }
+
+    .ordersdiv .order .infoOrder .features {
+        margin-top: 4px;
+    }
+
+    .ordersdiv .order .infoOrder .features ul li p {
+        font-size: 12px;
+    }
+
+    .ordersdiv .order .infoOrder .features ul li span {
+        font-size: 11px;
+    }
+
+    .ordersdiv .order .infoOrder .features ul li {
+        margin: 2px 0;
+    }
+}
+
+@media (max-width:1200px) {
+    .cardAdres li {
+        margin-right: 50px;
+    }
+
+    .adresbeklemebtn {
+        margin-left: 16px;
+    }
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 92.8% !important;
+    }
+
+    .ContentCol {
+        padding-left: 59px;
+
+    }
+
+    .AccountContent {
+        padding-left: 49px;
+    }
+
+    .accept a {
+        width: 100% !important;
+    }
+
+    #Contact .ta2 {
+        height: 956px;
+        width: 630px;
+        object-fit: contain;
+    }
+}
+
+@media (min-width:992px) {
+
+    .deleteOrderButton {
+        display: none;
+    }
+
+    .countDiv {
+        display: none;
+    }
+}
+
+@media (max-width:992px) {
+    .OrderSummaryCol .OrderCard {
+        padding: 22px 29px 16px;
+    }
+
+    .PaymentMetodCol .content .buttons a {
+        height: 47px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ordersdiv .order .infoOrder .price:after {
+        position: absolute;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-regular) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+
+        background: #E50A19;
+        width: 51px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 89px;
+        top: -13px;
+        content: "%40";
+        color: #FFFFFF;
+    }
+
+    #ContactSection.ReconiliationSec .content .Cards .Card svg {
+        width: 33px;
+        height: 33px;
+    }
+
+    #ContactSection.ReconiliationSec .content .Cards .Card p {
+        font-size: 16px;
+
+    }
+
+    #ContactSection.ReconiliationSec .content .Cards .Card h5 {
+        font-size: 16px;
+        margin-top: 3px;
+        margin-bottom: 8px;
+    }
+
+    #ContactSection.ReconiliationSec .content .Cards .Card {
+        width: 166px;
+        height: 166px;
+    }
+
+    #ContactSection.ReconiliationSec .content h2 {
+        font-size: 20px;
+        margin-bottom: 29px;
+    }
+
+    .dis {
+        display: none !important;
+    }
+
+    .disop {
+        display: block !important;
+        width: 100%;
+    }
+
+    .cardAdres li {
+        margin-right: 100px;
+    }
+
+    .adresbeklemebtn {
+        margin-left: 200px;
+    }
+
+    .OrderAdres .dis {
+        width: 100%;
+    }
+
+    #Account .SignInContent .MainTitle {
+        display: none;
+    }
+
+    #Account .AcooungSetiingsContent .title h2 {
+        display: none;
+    }
+
+    #Account .MyAdressInfosContent .title h2 {
+        display: none;
+    }
+
+    .socialMedias {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tablet-none {
+        display: none !important;
+    }
+
+    .swip-area {
+        display: none;
+    }
+
+    #Account .AddNewAdressContent .title h2 {
+        display: none;
+    }
+
+    #Account .AcooungSetiingsContent .mainInfos .birthydayDiv div {
+        margin-right: -5px;
+    }
+
+    .ContentCol {
+        padding-left: 11px;
+
+    }
+
+    .AccountContent {
+        padding-left: 0 !important;
+    }
+
+    #Contact .bgIMG .ta2 {
+        display: none !important;
+    }
+
+    .ta {
+        display: block;
+        width: 100% !important;
+    }
+
+    #Account .FavoritesContent .Card {
+        position: relative;
+    }
+
+    #Account .FavoritesContent .Card .Infos>div .discountPercent {
+        margin-right: 0;
+        position: absolute;
+        top: 345px;
+        left: 12px;
+    }
+
+    .discountPrice {
+        display: flex;
+        align-items: center;
+    }
+
+    #Account .FavoritesContent .Card .Infos {
+        padding: 34px 15px;
+    }
+
+    #Account .FavoritesContent .Card .Infos>div .discountPrice span {
+        margin-left: 14px;
+    }
+
+    #Questions .MainContentDiv .tab-content p {
+        font-size: 16px;
+    }
+
+    #Questions .container .row .left-col {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center !important;
+    }
+
+    #Questions .container .row .col-3 {
+        justify-content: center !important;
+        display: flex;
+    }
+
+    #Questions .MainContentDiv .tab-content h3 {
+        font-size: 24px;
+    }
+
+    #Questions .container .row .left-col ul li {
+        margin-bottom: 30px;
+    }
+
+    #Questions .container {
+        max-width: 100%;
+    }
+
+    #Questions .MainContentCol {
+        padding: 0;
+        border: none;
+    }
+
+    #Questions .TitleCol h2 {
+        display: none;
+    }
+
+    #BlogInfo img {
+        height: 372px;
+    }
+
+    #BlogInfo .title {
+        text-align: center;
+    }
+
+    #BlogInfo .title h4 {
+        font-size: 24px;
+    }
+
+    #BlogInfo .title h2 {
+        font-size: 24px;
+    }
+
+    .sn2 {
+        display: block;
+    }
+
+    .Products2 {
+        display: block;
+    }
+
+    .s-n {
+        display: block;
+    }
+
+    #Blogs .aside .NewProducts .buttons button {
+        display: none;
+
+    }
+
+    #FaqBanner .container .row .col-lg-6.ord {
+        order: -1;
+    }
+
+    #FaqBanner .container .row .col-lg-6 {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #Faqs .col-lg-6 {
+        margin-top: 42px;
+    }
+
+    #Faqs .faq {
+        width: 100%;
+    }
+
+    #FaqBanner .content {
+        margin-top: 25px;
+    }
+
+    #FaqBanner .content h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    #FaqBanner .content h5 {
+        font-size: 16px;
+    }
+
+    #FaqBanner .content h5 br {
+        display: none;
+
+    }
+
+    #Faqs .title h5 {
+        text-align: center;
+    }
+
+    #FollowOrder .content>p {
+        font-size: 16px;
+    }
+
+    #FollowOrder .content svg {
+        width: 40px;
+        height: 51px;
+    }
+
+    #ForgotPassword .content .emailArea p {
+        font-size: 16px;
+    }
+
+    #ForgotPassword .content>p {
+        font-size: 16px;
+    }
+
+    #ForgotPassword .content svg {
+        width: 45px;
+        height: 45px;
+    }
+
+    #Reconiliation .banner h2 {
+        font-size: 39px;
+    }
+
+    #Reconiliation .banner h3 {
+        margin-top: 11px;
+        font-size: 18px;
+    }
+
+    #Reconiliation .banner img {
+        height: 330px;
+    }
+
+    #Reconiliation .banner {
+        height: 338px;
+    }
+
+    #Account .container {
+        max-width: 100% !important;
+    }
+
+    #Account .MyAdressInfosContent .title {
+        flex-direction: column;
+    }
+
+    #Account .MyAdressInfosContent .title a {
+        width: 349px;
+    }
+
+    #Account .MyAdressInfosContent .title h2 {
+        margin-bottom: 39px;
+    }
+
+    #Artboard .col-12 .content h3 {
+        font-size: 31px;
+        letter-spacing: normal;
+    }
+
+    .f-tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-tablet p {
+        margin: 0 !important;
+        padding-left: 6px;
+        order: 1;
+    }
+
+    .DeliveryInformationCol .content .buttons a {
+        height: 46px;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .addNewAdressCol {
+        order: -1;
+    }
+
+    .AdressTitleCol {
+        order: -1;
+    }
+
+    .DeliveryInformationCol .adresses .col-lg-6.addNewAdressCol .content {
+        min-height: 55px;
+        width: 347px;
+        margin: 0 auto;
+    }
+
+    .AdressTitleCol h3 {
+        text-align: center !important;
+    }
+
+    #Account .OptionsCol {
+        display: none;
+    }
+
+    #Account .AcooungSetiingsContent .title h2 {
+        text-align: center;
+    }
+
+    #Account .AddNewAdressContent .title h2 {
+        text-align: center;
+    }
+
+    #Account .BeforeOrdersContent .title h2 {
+        display: none;
+    }
+
+    #Blogs .aside .socialMedias .socialCard {
+        width: auto;
+    }
+
+    #Blogs .aside>div:nth-child(1) {
+        border: none;
+    }
+
+    #Blogs .aside .socialMedias {
+        border-bottom: 1px solid #EBEBEB;
+        padding-bottom: 20px;
+    }
+
+    #Blogs .aside .NewProducts .Products {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #Blogs .aside .NewProducts .Products .Card {
+        width: 48%;
+    }
+
+    #Blogs .aside .categories div {
+        border: none;
+        border-bottom: 1px solid #EFEFF1;
+    }
+
+    #Blogs .aside .categories div a {
+        width: 46%;
+    }
+
+    #Blogs .aside .categories div {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #Blogs .aside .categories div a {
+        margin: 6.5px;
+    }
+
+    #Contact .bgIMG {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #Contact .ContactCol {
+        width: 100% !important;
+    }
+
+    #Contact .ContactCol ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #Contact .bgIMG img {
+        width: 834px;
+        height: 421px;
+    }
+
+    #Contact .ContactCol h2 {
+        text-align: center;
+    }
+
+    #Contact .ContactCol {
+        margin-top: 30px;
+    }
+
+    #Contact .ContactCol .contentInputs h2 {
+        text-align: center;
+    }
+
+    #Account .FavoritesContent .Card .ImageDiv img {
+        width: 80%;
+    }
+
+    .OrderSummaryCol .content {
+        margin-top: 40px;
+
+    }
+
+    .OrderSummaryCol .OrderCard {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .OrderSummaryCol .Conditions {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #Reconiliation .contactForm {
+        margin-top: 40px;
+    }
+
+    #BlogInfo .title h4 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 11px;
+    }
+
+    #BlogInfo .title h2 {
+        text-align: center;
+        max-width: 349px;
+        margin: 0 auto;
+        font-size: 24px;
+        margin-bottom: 17px;
+    }
+
+    #BlogInfo img {
+        height: 372px;
+    }
+
+    .adrestime {
+        position: relative;
+    }
+
+    .adrestime p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .ordersdiv .order .infoOrder {
+        width: calc(100% - 200px);
+    }
+
+    .OrderRulesCol {
+        margin-top: 40px;
+    }
+
+    .OrderRulesCol .rulesDiv h2 {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+
+    .OrderRulesCol .rulesDiv h5 {
+        display: none;
+    }
+
+    .num-p {
+        text-align: center;
+    }
+}
+
+@media (max-width:800px) {
+
+    #mobileQue,
+    #mobil-menu {
+        display: block;
+    }
+
+    #Questions {
+        display: none;
+    }
+
+    #mobileQue .top-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #mobileQue .top-content.active {
+        background: #E10B17;
+    }
+
+    #mobileQue .top-content.active span {
+        color: #fff;
+    }
+
+    #mobil-menu {
+
+        position: absolute;
+        background: #FFFFFF;
+        overflow: hidden;
+        width: 100%;
+        top: 146px;
+        height: 0;
+        transition: 800ms all;
+    }
+
+    #mobil-menu.active {
+        height: 100%;
+    }
+
+    #mobil-menu ul {
+        padding-top: 10px;
+        padding-bottom: 0;
+        padding-left: 27px;
+    }
+
+    #mobil-menu ul li {
+        margin-bottom: 28px;
+    }
+
+    #mobil-menu ul li a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #585858;
+        font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+
+    }
+
+    #mobileQue .top-content {
+        background: #E5E5E5;
+        padding-top: 25px;
+        padding-left: 27px;
+        display: flex;
+        align-items: center;
+        padding-right: 29px;
+        padding-bottom: 23px;
+        transition: 400ms all;
+    }
+
+    #mobileQue .top-content.active svg {
+        transform: rotate(180deg);
+    }
+
+    #mobileQue .top-content.active svg path {
+        fill: #fff;
+    }
+
+
+    #mobileQue .top-content span {
+        font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-helvetica-neue);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #2B2B2B;
+    }
+
+    #Questions {
+        display: none;
+    }
+
+    #mobileQue {
+        display: block;
+    }
+}
+
+@media (max-width:600px) {
+    .OrderSummaryCol .OrderCard {
+        padding: 19px 20px 8px !important;
+    }
+
+    #Account .AccountContent .content ul li a {
+        font-size: 18px;
+    }
+
+    .PaymentMetodCol .content .buttons a {
+        font-size: 17px;
+    }
+
+    .mobil-top-area p {
+        padding-left: 50px;
+        font-size: 14px;
+    }
+
+    #Account .SignInContent .birthydayDiv div {
+        margin-right: -5px;
+    }
+
+    .ordersdiv .order .infoOrder .discount p {
+        border: 1px solid rgba(0, 0, 0, 0.041);
+        padding: 3px 5px;
+    }
+
+    .ordersdiv .order .infoOrder {
+        margin-left: 14px;
+    }
+
+    .countDiv {
+        bottom: 10px !important;
+    }
+
+    .ordersdiv .order .infoOrder .features {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .ordersdiv .order .infoOrder .discount {
+        border: none;
+    }
+
+    .ordersdiv .order .infoOrder .features ul li span {
+        white-space: normal !important;
+    }
+
+    .OrderSummaryCol .OrderCard .top h3 {
+        font-size: 18px;
+    }
+
+    #Account .BeforeOrdersContent .content .Card ul li button.med {
+        width: 100% !important;
+    }
+
+    .ordersdiv .order .infoOrder .features ul li span {
+        white-space: nowrap;
+    }
+
+    .OrderSummaryCol .content {
+        width: 100% !important;
+    }
+
+    #Account .SignInContent .OtherInfos .inputs>div {
+        margin-top: 10px;
+    }
+
+    .mobil-top-area {
+        display: block;
+    }
+
+    .mobil-top-area button {
+        left: 13px;
+
+    }
+
+    .adrestime button {
+        display: none;
+    }
+
+    .adrestime p {
+        font-size: 14px;
+        position: relative;
+        transform: translate(0, 0);
+        left: 0;
+        top: 0;
+        margin-left: 15px;
+    }
+
+    .ordersdiv .order .infoOrder {
+        width: auto;
+    }
+
+    .countDiv {
+        right: auto;
+        left: 22px;
+        bottom: 20px !important;
+    }
+
+    .OrderSummaryCol .content {
+        margin-top: 84px;
+    }
+
+    .ordersdiv .order .imageDiv div {
+        margin-bottom: 25px;
+    }
+
+    #Blogs .aside .categories div a {
+        margin-left: 0;
+    }
+
+    #Account .BeforeOrdersContent .content .Card ul li.btnLi {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #Account .BeforeOrdersContent .content .Card ul li .infoOrder {
+        margin-left: 0;
+    }
+
+    #Artboard .RemittanceInformation .CreditCard .infosDiv button {
+        margin-top: 10px;
+    }
+
+    .Popup .popup-container form input,
+    select {
+        height: 60px;
+    }
+
+    .Popup .popup-container {
+        border-radius: 1px;
+    }
+
+    .Popup .popup-container form input,
+    select {
+        border-radius: 1px;
+    }
+
+    .Popup .popup-container form {
+        width: 97%;
+    }
+
+    .popup-container {
+        width: 100% !important;
+    }
+
+    #Account .AcooungSetiingsContent .mainInfos .birthydayDiv div {
+        margin-right: 0px;
+    }
+
+
+
+
+    #Account .AccountContent .content ul li a .svg1 {
+        width: 33px;
+        height: 37px;
+        position: absolute;
+        left: 19px;
+
+    }
+
+    #Account .AccountContent .content ul li a .svg2 {
+        width: 29px;
+        height: 33px;
+        position: absolute;
+        left: 20px;
+
+    }
+
+    #Account .AccountContent .content ul li a {
+        position: relative;
+    }
+
+    #Account .AccountContent .content ul li a .svg3 {
+        width: 28px;
+        height: 39px;
+        position: absolute;
+        left: 20px;
+    }
+
+    #Account .AccountContent .content ul li a .svg4 {
+        width: 33px;
+        height: 30px;
+        position: absolute;
+        left: 17px;
+
+    }
+
+    #Account .AccountContent .content ul li a .svg5 {
+        width: 26px;
+        height: 34px;
+        position: absolute;
+        left: 20px;
+
+    }
+
+    #Account .AccountContent .content ul li a .svg6 {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 20px;
+
+    }
+
+    #Account .AccountContent .content ul li a {
+        padding-left: 27px;
+    }
+
+    .fixed-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .OrderSummaryCol .content {
+        transform: translateY(-23px) !important;
+    }
+
+    #Contact .ContactCol {
+        margin-top: 0;
+    }
+
+    .ta2 {
+        display: none !important;
+    }
+
+    .ta {
+        display: none !important;
+    }
+
+    .ta3 {
+        display: block !important;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    #Account .BeforeOrdersContent .content .Card ul li button {
+        width: 140px !important;
+    }
+
+    #Account .AcooungSetiingsContent .mainInfos .birthydayDiv {
+        margin-top: 13px !important;
+    }
+
+    #Account .AcooungSetiingsContent .mainInfos .birthydayDiv p {
+        text-align: center;
+    }
+
+    #Account .AcooungSetiingsContent .mainInfos input:nth-child(1),
+    #Account .AcooungSetiingsContent .mainInfos input:nth-child(3),
+    #Account .AcooungSetiingsContent .mainInfos input:nth-child(5) {
+        margin-right: 0px;
+    }
+
+    .indirim {
+        width: 169px;
+    }
+
+    #Account .FavoritesContent .Card .Infos>div .discountPrice span {
+        font-size: 16px !important;
+    }
+
+    .c2 {
+        padding: 0 1px;
+    }
+
+    #Account .FavoritesContent .Card .Infos {
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    #Account .FavoritesContent .Card .Infos>div .discountPercent {
+        margin-right: 0;
+        position: absolute;
+        top: 184px;
+        left: 15px;
+    }
+
+    #Blogs .aside .categories div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Blogs .aside .categories .buttons a {
+        width: 100%;
+    }
+
+    .socialMedias {
+        margin: 0 auto;
+        display: grid !important;
+        place-content: center !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #BlogInfo .title h4 {
+        margin-bottom: 10px;
+    }
+
+    #Blogs .main .BlogCard .textDiv h3 {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    #Blogs .main .BlogCard .textDiv p {
+        font-size: 14px;
+
+
+    }
+
+    #Faqs .faq button {
+        margin-bottom: 25px;
+    }
+
+    #FaqBanner .content h2 {
+        margin-bottom: 4px;
+    }
+
+    .ord img {
+        width: 216px;
+        height: 192px;
+    }
+
+    #ForgotPassword .content .emailArea input {
+        font-size: 16px;
+    }
+
+    #ForgotPassword .content .emailArea p {
+        font-size: 14px;
+    }
+
+    #Reconiliation .banner {
+        height: 238px;
+    }
+
+    #OrderCancel .content h2 {
+        font-size: 24px;
+    }
+
+    #OrderCancel .content img {
+        width: 224px;
+        height: 82px;
+    }
+
+    .birthydayDiv {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin: 5px 0 !important;
+    }
+
+    .cus {
+        margin: 5px 0 !important;
+        width: 75px !important;
+    }
+
+    .dis {
+        display: none !important;
+    }
+
+    #Account .MyAdressInfosContent .title a {
+        width: 100%;
+    }
+
+    #Account .AccountContent .content ul li a {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #Account .AccountContent .content ul li a svg {
+        margin-right: 0;
+    }
+
+    #Account .AccountContent .content ul li {
+        width: 100%;
+        height: 83px;
+        margin-right: 0 !important;
+        margin-top: 11px !important;
+    }
+
+    .CreditCard .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #Artboard .RemittanceInformation .CreditCard .infosDiv div p {
+        white-space: normal;
+    }
+
+    #Artboard .RemittanceInformation .CreditCard .infosDiv div p input {
+        width: 286px;
+    }
+
+    #Artboard .RemittanceInformation .CreditCard {
+        padding: 0 !important;
+    }
+
+    #Artboard .RemittanceInformation .CreditCard .infosDiv {
+        padding: 15px 0 !important;
+        padding-right: 0 !important;
+        padding-left: 8px !important;
+    }
+
+    .RemittanceInformation .top p {
+        margin-bottom: 20px !important;
+    }
+
+    #Artboard .col-12 .content>svg {
+        width: 94px;
+        height: 77px;
+    }
+
+    .OrderSummaryCol .accept a {
+        width: 100%;
+    }
+
+    .OrderCard {
+        padding: 15px 20px 10px !important;
+    }
+
+    #Account .AcooungSetiingsContent .mainInfos>input,
+    #Account .AcooungSetiingsContent .mainInfos>div {
+        width: 98%;
+    }
+
+    #Account .AcooungSetiingsContent .OtherInfos button {
+        width: 98%;
+    }
+
+    #Account .AddNewAdressContent .OtherInfos .inputs>div input,
+    #Account .AddNewAdressContent .OtherInfos .inputs>div select {
+        width: 100%;
+    }
+
+    #Account .AddNewAdressContent .OtherInfos .inputs>div {
+        margin: 0;
+    }
+
+    #Account .AddNewAdressContent .OtherInfos div.telephone {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #Account .AddNewAdressContent .OtherInfos button {
+        width: 98%;
+    }
+
+    #Artboard .RemittanceInformation .CreditCard {
+        width: 98%;
+        padding: 15px 19px;
+    }
+
+    #Artboard .RemittanceInformation .CreditCard .infosDiv {
+        flex-direction: column;
+        padding: 15px 21px;
+    }
+
+    #Artboard .RemittanceInformation .top p {
+        width: 98%;
+        text-align: center;
+    }
+
+    #Artboard .RemittanceInformation {
+        width: 100%;
+    }
+
+    #Artboard .RemittanceInformation .CreditCard {
+        height: 100%;
+    }
+
+    #Artboard .RemittanceInformation .CreditCard .infosDiv div p {
+        margin-top: 10px;
+    }
+
+    #Account .BeforeOrdersContent .content .Card ul {
+        flex-wrap: wrap;
+    }
+
+    #Account .BeforeOrdersContent .content .Card ul li button {
+        margin-top: 15px;
+        width: 149px;
+    }
+
+    #Account .BeforeOrdersContent .content .Card ul li:nth-child(2) {
+        margin: 0 12px;
+    }
+
+    #Account .BeforeOrdersContent .content .Card ul li:nth-child(3) {
+        width: 100%;
+        margin-top: 10px;
+
+
+    }
+
+    #BlogInfo img {
+        height: 216px;
+    }
+
+    #BlogInfo .ReadCommentDiv h3 {
+        font-size: 20px;
+    }
+
+    #Blogs .main .BlogCard .textDiv {
+        padding: 21px;
+    }
+
+    #Blogs .aside .NewProducts .Products .Card {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #Blogs .aside .categories div {
+        padding: 7px;
+    }
+
+    #Contact .bgIMG img {
+        height: 338px;
+    }
+
+    #Contact .ContactCol h2 {
+        font-size: 20px;
+    }
+
+    .Map iframe {
+        height: 330px;
+    }
+
+    .FavoritesContent .title {
+        border-bottom: 1px solid #F4F4F4;
+        padding-bottom: 23px;
+    }
+
+    #Account .FavoritesContent .Card .ImageDiv {
+        margin: 0 !important;
+        height: 255px;
+    }
+
+    #Account .FavoritesContent .Card:nth-child(odd) {
+        padding-right: 8px;
+    }
+
+    #Account .FavoritesContent .Card .ImageDiv:nth-child(add) {
+        margin-right: 8px !important;
+    }
+
+    #Account .FavoritesContent .Card {
+        width: 170px;
+
+    }
+
+    #Account .FavoritesContent .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #Account .FavoritesContent .Card {
+        width: 100%;
+    }
+
+    #Account .FavoritesContent .title h2 {
+        text-align: center;
+    }
+
+    #FollowOrder .content .emailArea {
+        width: 98%;
+        padding: 20px;
+    }
+
+    #ForgotPassword .content .emailArea {
+        width: 98%;
+        padding: 20px;
+    }
+
+    #Account .AccountContent .content ul li {
+        width: 98%;
+    }
+
+    #OrderCancel .content>p {
+        text-align: center;
+        padding: 0 25px;
+    }
+
+    #OrderCancel .content button,
+    #OrderCancel .content .CodeDiv,
+    #OrderCancel .content textarea {
+        width: 98%;
+    }
+
+    #OrderCancel .content .CodeDiv p {
+        font-size: 16px;
+    }
+
+    #OrderCancel .content .CodeDiv span {
+        font-size: 16px;
+    }
+
+    #Account .SignInContent .OtherInfos .inputs>div>div input,
+    #Account .SignInContent .OtherInfos .inputs>div>div select {
+        width: 100%;
+        padding-left: 10px !important;
+    }
+
+    #Account .SignInContent .birthydayDiv {
+        width: 98%;
+    }
+
+    #Account .SignInContent .OtherInfos div.telephone {
+        width: 100%;
+    }
+
+    #Account .SignInContent .OtherInfos button {
+        width: 98%;
+    }
+
+    #Account .SignInContent h2 {
+        text-align: center;
+    }
+
+    #Reconiliation .contactForm .content {
+        padding: 15px 25px;
+    }
+
+    #ContactSection.ReconiliationSec .content .Cards {
+        flex-direction: column;
+    }
+
+    #Reconiliation .banner h2 {
+        font-size: 25px;
+    }
+
+    #Reconiliation .banner h3 {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    #Reconiliation .banner img {
+        height: 230px;
+    }
+}
+
+@media (max-width:765px) {
+    .cardAdrekleme {
+        display: none;
+    }
+
+    .mobilList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:800px) {
+    .adresbeklemebtn {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:450px) {
+    .Popup .close-Btn {
+        right: 5px;
+        top: 15px;
+    }
+
+    .Popup .close-Btn svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .Popup .popup-container {
+        height: fit-content;
+        overflow: auto;
+        border-radius: 1px;
+    }
+}
+
+@media (max-width:375px) {
+    .PaymentMetodCol .content .buttons a {
+        font-size: 14px;
+    }
+
+    .DeliveryInformationCol .adresses .col-lg-6.addNewAdressCol .content {
+        width: 100%;
+    }
+
+    .DeliveryInformationCol .content .buttons a {
+        font-size: 14px !important;
+    }
+
+    .Popup .close-Btn {
+        right: 5px;
+        top: 15px;
+    }
+
+    .Popup .close-Btn svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .Popup .popup-container {
+        height: 500px;
+        overflow: auto;
+        border-radius: 1px;
+    }
+
+}
+
+@media(max-width:330px) {
+
+    .copyOrderCode {
+        width: 100% !important;
+    }
+
+    #Artboard .col-12 .content .ContinueShopping {
+        width: 100%;
+    }
+}
+
+@media(max-width:321px) {
+    .fixed-bar button {
+        width: 145px;
+    }
+
+    #Artboard .RemittanceInformation .CreditCard .infosDiv div p.scro {
+        overflow: scroll;
+        padding-right: 10px;
+    }
+}
